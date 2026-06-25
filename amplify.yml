@@ -3,6 +3,7 @@ backend:
   phases:
     build:
       commands:
+        - npm install -g @aws-amplify/cli@14.5.1-rc.f83740d522c1935.0
         - amplifyPush --simple
 frontend:
   phases:
